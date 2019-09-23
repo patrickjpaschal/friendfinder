@@ -1,0 +1,15 @@
+html{
+  background-color:#E9ECEF;
+  margin-bottom:50px;
+}
+#friend{
+  font-weight:500;
+  font-size:75px;
+}
+#fb{
+  font-size: 75px;
+}
+#lowered{
+  float:right;
+  padding-bottom:55px;
+}

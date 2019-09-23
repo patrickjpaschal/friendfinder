@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Questionaire</title>
+  <style>
+  html{margin:15px;}
+
+  .display-4{
+    font-weight:700;
+  }
+    </style>
+</head>
+<body>
+  <div class="page-container">
+      <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4">Survery Questions</h1>    <br>
+            <p class="lead"><h2>About you</h2><br></p>
+            <form>
+                <div class="form-group">
+                  <label for="formGroupExampleInput">Name (Required)</label>
+                  <input type="text" class="form-control" id="namegiven">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Link to Photo Image (Required)</label>
+                    <input type="text" class="form-control" id="photourl">
+                </div>
+              </form>
+          </div>
+        </div>
+            <div class="questions">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1"><h3>Question 1</h3>You enjoy long walks on beaches.</label>
+                    <select class="form-control" id="question1">
+                      <option>1(Strongly Disagree)</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5(Strongly Agree)</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                      <label for="exampleFormControlSelect1"><h3>Question 2</h3>You prefer the term "Collector", rather than "Hoarder".</label>
+                      <select class="form-control" id="question2">
+                          <option>1(Strongly Disagree)</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5(Strongly Agree)</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1"><h3>Question 3</h3>This week you're mopping the floors, but next week it's the fries.</label>
+                        <select class="form-control" id="question3">
+                            <option>1(Strongly Disagree)</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5(Strongly Agree)</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                          <label for="exampleFormControlSelect1"><h3>Question 4</h3>It would take longer than you care to admit for someone to find you if you had a coronary.</label>
+                          <select class="form-control" id="question4">
+                              <option>1(Strongly Disagree)</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5(Strongly Agree)</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1"><h3>Question 5</h3>"Not all who wander are lost." Does not apply to you, because you have been lost for years.</label>
+                            <select class="form-control" id="question5">
+                                <option>1(Strongly Disagree)</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5(Strongly Agree)</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                              <label for="exampleFormControlSelect1"><h3>Question 6</h3>You are currently single by choice, just not by your choice.</label>
+                              <select class="form-control" id="question6">
+                                  <option>1(Strongly Disagree)</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5(Strongly Agree)</option>
+                              </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1"><h3>Question 7</h3>You are willing to lower your expectations.</label>
+                                <select class="form-control" id="question7">
+                                    <option>1(Strongly Disagree)</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5(Strongly Agree)</option>
+                                </select>
+                              </div>
+                              <div class="form-group">
+                                  <label for="exampleFormControlSelect1"><h3>Question 8</h3>This is the 5th questionaire you've filled out this week.</label>
+                                  <select class="form-control" id="question8">
+                                      <option>1(Strongly Disagree)</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                      <option>5(Strongly Agree)</option>
+                                  </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlSelect1"><h3>Question 9</h3>You think this is too many questions to answer just to get a rejected again.</label>
+                                    <select class="form-control" id="question9">
+                                        <option>1(Strongly Disagree)</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5(Strongly Agree)</option>
+                                    </select>
+                                  </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlSelect1"><h3>Question 10</h3>This is your last ditch effort to get a date.</label>
+                                    <select class="form-control" id="question10">
+                                        <option>1(Strongly Disagree)</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5(Strongly Agree)</option>
+                                    </select>
+                                  </div>
+            </div>
+            <button type="button" class="btn btn-primary btn-lg btn-block" id="submitbtn" data-toggle="modal" data-target="#myModal">Submit</button>
+  </div>
+  <div class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Match</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Your best match!</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
+<script type="text/javascript">
+  // In this code below we create the Front-end JavaScript which "POSTS" our form data to our express server.
+  // In essence, when the user hits submit, jQuery grabs all of the fields then sends a post request to our api
+  // Our api recognizes the route (/api/tables)... and then runs the associated code (found in api-routes.js).
+  // In this case the associated code "saves" the data to the table-data.js file or waitinglist-data.js file
+
+  $(".submit").on("click", function(event) {
+    event.preventDefault();
+
+    // Here we grab the form elements
+    function validateForm() {
+        var isValid = true;
+    $(".form-control").each(function() {
+
+    if ($(this).val() === '') {
+    isValid = false;
+      }
+      });
+      return isValid;
+        }
+      if (validateForm()) {
+
+        var userData = {
+          name: $("#name").val().trim(),
+          photo: $("#photo").val(),
+          scores: [
+            $("#question1").val(),
+            $("#question2").val(),
+            $("#question3").val(),
+            $("#question4").val(),
+            $("#question5").val(),
+            $("#question6").val(),
+            $("#question7").val(),
+            $("#question8").val(),
+            $("#question9").val(),
+            $("#question10").val()
+          ]
+        };
+
+    };
+
+    console.log(userData);
+
+    // This line is the magic. It"s very similar to the standard ajax function we used.
+    // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
+    // The callback is the response of the server. In our case, we set up code in api-routes that "returns" true or false
+    // depending on if a tables is available or not.
+    var currentURL = window.location.origin;
+
+    $.post(currentURL + "/api/friends", newFriend, function (data) {
+                        $("#friendName").text(data.sameName);
+                        $("#friendImage").attr("src", data.samePicture);
+                        $('#modal').modal("toggle");
+                    });
+  })
+</script>
